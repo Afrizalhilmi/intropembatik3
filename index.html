@@ -2,22 +2,32 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<style>
-video {
-  width: 100%;
-  height: auto;
-}
-</style>
+  <style>
+        .container {
+            width: 100%;
+            height: auto;
+            margin: auto;
+            background: #999999;
+        }
+        footer {
+            padding: 5px 10px;
+            background-color: #1CBABC;
+            color: #F4F5ED;
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
 
-<video width="400" controls>
-  <source src="mov_bbb.mp4" type="video/mp4">
-  <source src="mov_bbb.ogg" type="video/ogg">
-  Your browser does not support HTML5 video.
-</video>
-
-<p>Resize the browser window to see how the size of the video player will scale.</p>
+  <div class="container">
+        <div class="content-video">
+            <!-- Tempatkan Video Disini -->
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/TTZS1FIygyA?si=XmRL4LtHWi0okxfz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <footer>
+            <h3>Cara Embed Video YouTube di Website</h3>
+        </footer>
+    </div>
 
 </body>
 </html>
